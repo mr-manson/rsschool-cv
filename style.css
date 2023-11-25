@@ -46,3 +46,39 @@ h1 {
   height: auto;
   border-radius: 10px;
 }
+
+.cv-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.cv-item {
+  display: flex;
+  width: 500px;
+  min-height: 150px;
+}
+
+.code {
+  width: 400px;
+  border-radius: 10px;
+  background-color: #3d3d3d;
+}
+
+.cv-item h2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: center;
+  padding: 10px;
+}
+
+.cv-item > div {
+  padding-left: 50px;
+  border-left: 1px solid #f0e2e0;
+}
+
+.cv-item > div ul {
+  list-style: square;
+}
