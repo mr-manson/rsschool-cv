@@ -82,3 +82,26 @@ h1 {
 .cv-item > div ul {
   list-style: square;
 }
+
+.footer {
+  padding: 10px 20px;
+  border-top: 1px solid #f0e2e0;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-list-item {
+  display: block;
+}
+
+.icon {
+  filter: invert(100%);
+  padding: 20px;
+  height: 70px;
+  /* fill: #5046e5; */
+}
